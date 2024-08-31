@@ -26,15 +26,6 @@ Each blog file is labeled with the blogger's gender, age, industry, and astrolog
 
 **Link to Dataset**: [Blog Authorship Corpus on Kaggle](https://www.kaggle.com/rtatman/blog-authorship-corpus)
 
-## Project Structure
-The project is structured as follows:
-- **`data/`**: Contains the dataset (if included) or a link to download it.
-- **`notebooks/`**: Jupyter notebooks for data exploration, preprocessing, and modeling.
-- **`scripts/`**: Python scripts for data preprocessing and model training.
-- **`models/`**: Saved models and results.
-- **`README.md`**: Project documentation.
-- **`requirements.txt`**: List of Python packages required to run the project.
-
 ## Preprocessing
 The preprocessing steps involve:
 1. **Loading the Dataset**: Reading the CSV file with explicit encoding and quoting settings.
@@ -57,10 +48,10 @@ We evaluated the model using the following metrics:
 
 ## Results
 The model was tested on a subset of 1000 entries from the dataset. The results include:
-- Accuracy: [Add result]
-- F1 Score: [Add result]
-- Average Precision: [Add result]
-- Average Recall: [Add result]
+- Accuracy: 0.73
+- F1 Score: 0.73
+- Average Precision: 0.55
+- Average Recall: 0.73
 
 Additionally, the true and predicted labels for five sample entries were compared to assess the model's performance.
 
