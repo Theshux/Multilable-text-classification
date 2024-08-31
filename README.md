@@ -67,6 +67,4 @@ Additionally, the true and predicted labels for five sample entries were compare
 ## Conclusion
 This project demonstrates the feasibility of predicting multiple author attributes from blog text using multi-label classification. The results show that logistic regression, coupled with the One-vs-Rest strategy, can be an effective approach for this type of problem. Further improvements can be achieved by exploring more advanced models and fine-tuning hyperparameters.
 
----
 
-You can replace `[Add result]` with your actual results from the project. This template should provide a clear and structured documentation of your project for anyone who views your GitHub repository.
